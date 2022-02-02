@@ -1,0 +1,93 @@
+
+/* Box sizing */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Reset margins */
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+picture {
+    margin: 0;
+}
+
+/* set up the body */
+
+body {
+    line-height: 1.5;
+    min-height: 100vh;
+}
+
+/* make images easier to work with */
+
+img,
+picture {
+    min-width: 100%;
+    display: block;
+}
+
+.flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+}
+
+.grid {
+    display: grid;
+    gap: var(--gap, 1rem);
+}
+
+.container {
+    padding-inline: 1em;
+    margin-inline: auto;
+    max-width: 80rem;
+}
+
+.logo {
+    margin: 2rem;
+}
+
+.nav-section {
+    z-index: 10;
+    position: relative;
+}
+
+.bg-img img {
+    object-fit: cover;
+    position: absolute;
+    top: -4px;
+}
+
+.primary-header {
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.primary-navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.primary-navigation a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.primary-navigation a > [aria-hidden="true"] {
+    font-weight: 700;
+    margin-inline-end: .75em;
+}
+
+/* .logo {
+    width: 5rem;
+} */
