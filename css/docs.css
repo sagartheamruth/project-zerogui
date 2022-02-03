@@ -56,7 +56,7 @@ picture {
 }
 
 .nav-section {
-    z-index: 10;
+    
     position: relative;
 }
 
@@ -69,6 +69,8 @@ picture {
 .primary-header {
     align-items: center;
     justify-content: flex-end;
+    z-index: 10;
+    position: relative;
 }
 
 .primary-navigation {
@@ -88,6 +90,6 @@ picture {
     margin-inline-end: .75em;
 }
 
-/* .logo {
+.logo {
     width: 5rem;
-} */
+}
