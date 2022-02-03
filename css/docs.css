@@ -76,6 +76,10 @@ picture {
     position: relative;
 }
 
+.mobile-nav-toggle {
+    display: none;
+}
+
 .primary-navigation {
     list-style: none;
     padding: 0;
@@ -115,15 +119,17 @@ picture {
 
 @media (min-width: 35em) {
     .primary-navigation {
-        --gap: 1.5rem;
+        --gap: 2rem;
         padding-block: 1.5rem;
-        padding-inline: clamp(3rem, 7vw, 10rem);
+        padding-inline: clamp(2rem, 4vw, 13rem);
     }
+
+    
 }
 
-@media (max-width: 36rem) {
+@media (max-width: 35em) {
     .primary-navigation {
-
+        z-index: 1000;
         --gap: 3em;
         position: fixed;
         inset: 0 0 0 30%;
@@ -134,6 +140,12 @@ picture {
        
         background: hsl(0 0% 100% / 0.1);
         backdrop-filter: blur(2rem);
+
+        transform: translateX(100%);
+    }
+
+    .primary-navigation[data-visible="true"] {
+        transform: translateX(0%);
     }
 
     /* .bg-img img {
@@ -142,6 +154,20 @@ picture {
         top: -4px;
         height: 162.8125rem;
     } */
+    
+    .mobile-nav-toggle {
+        z-index: 9999;
+        position: absolute;
+        background: url("/images/icons8-mobile-application-hamburger-menu-setting-interface-24.png");
+        background-repeat: no-repeat;
+        width: 2rem;
+        border: 0;
+        aspect-ratio: 1;
+        top: 2rem;
+        right: 2rem;
+        display: block;
+        
+    }
 
     .primary-navigation a {
         font-size: 1.5rem;
@@ -149,19 +175,22 @@ picture {
     }
 
     .logo {
-        width: 1rem;
-        margin: 4rem;
+        width: 3rem;
+        
 
     }
 
-    .mobile-nav-toggle {
-        position: absolute;
-        background: red;
-        width: 1rem;
-        aspect-ratio: 1;
-        top: 2rem;
-        right: 2rem;
-    }
+    
 }
 
-
+.sr-only {
+    position: absolute; 
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px; 
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap; /* added line */
+    border: 0;
+  }
