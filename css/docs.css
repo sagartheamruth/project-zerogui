@@ -194,3 +194,31 @@ picture {
     white-space: nowrap; /* added line */
     border: 0;
   }
+
+  /* main section of usage */
+  
+  .main-section {
+      align-items: center;
+      justify-content: center;
+        margin-top: 5rem;
+        flex-direction: column;
+    --gap: 2rem;
+      
+  }
+
+  .main-section-content {
+      font-family: 'Lato', sans-serif;
+      font-size: 1.2rem;
+      color: whitesmoke;
+  }
+
+
+  .main-section-footer-content {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    color: whitesmoke;
+  }
+  
+  .text-brand-teal-dark {
+    color: #539D98;
+}
