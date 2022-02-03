@@ -18,6 +18,7 @@ p,
 figure,
 picture {
     margin: 0;
+    background: #121826;
 }
 
 /* set up the body */
@@ -92,6 +93,7 @@ picture {
 .primary-navigation a > [aria-hidden="true"] {
     font-weight: 700;
     margin-inline-end: .75em;
+    overflow-x: auto;
 }
 
 .logo {
@@ -122,31 +124,32 @@ picture {
 @media (max-width: 36rem) {
     .primary-navigation {
 
-        --gap: 5em;
+        --gap: 3em;
         position: fixed;
         inset: 0 0 0 30%;
         flex-direction: column;
         background: steelblue;
 
-        padding: 10rem 2rem;
+        padding: 3rem 2rem;
        
         background: hsl(0 0% 100% / 0.1);
         backdrop-filter: blur(2rem);
     }
 
-    .bg-img img {
+    /* .bg-img img {
         object-fit: cover;
         position: absolute;
         top: -4px;
         height: 162.8125rem;
-    }
+    } */
 
     .primary-navigation a {
-        font-size: 5rem;
+        font-size: 1.5rem;
+        
     }
 
     .logo {
-        width: 17rem;
+        width: 1rem;
         margin: 4rem;
 
     }
@@ -160,3 +163,5 @@ picture {
         right: 2rem;
     }
 }
+
+
