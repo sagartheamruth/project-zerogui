@@ -1,0 +1,22 @@
+.main-section-avatars, p, h1, h3{
+    color: white;
+}
+
+.bg-color-brown {
+    background-color: #333333;
+}
+
+.pfp-pic img{
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 35%;
+    object-fit: cover;
+}
+
+.pfp-name div{
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 35%;
+    align-items: center;
+    justify-content: center;
+}

@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+.text-white {
+    color: white;
+}
+
 /* Reset margins */
 
 body,
