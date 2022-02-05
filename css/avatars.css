@@ -129,6 +129,7 @@
     font-weight: 500;
     text-align: left;
     transition: background 0.2s;
+    font-family: 'lato', 'Sans-serif';
 }
 
 .accordian__button::after {
@@ -154,5 +155,5 @@
     transition: max-height 0.2s; */
 
     display: none;
-    overflow: hidden;
+    overflow: auto;
 }
