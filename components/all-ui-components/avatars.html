@@ -89,16 +89,33 @@
         </nav>
     </header>    
     
-    <main class="main-section-avatars">
+    <main class="main-section-avatars flex">
+    
+    <div class="main-section-avatars-content">
         <div>
-            <h1>Avatars</h1>
-            <p>The Avatar component is used to represent a user, and displays the profile picture.</p>
+            <h1 class="teal-brand-dark">Avatars🕵️‍♂️</h1>
+            <p>The Avatar component is used to represent a user, and display the profile picture.</p>
         </div>
 
-        <div>
+        
+        <div class="default-avatar-about">
             <h3>Default</h3>
-            <p>You can display an avatar with just text or image.</p>
+            <p>You can display an avatar with just <span class="highlight-color">text</span>  or <span class="highlight-color">image</span>.</p>
         </div>
+    </div>
+                                            <!-- Accordian -->
+        <div class="accordian">
+            <button type="button" class="accordian__button">Code</button>
+            <div class="accordian__content">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=81px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522default-avatars-ex1%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cfigure%2520class%253D%2522pfp-pic%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252Fpfp-1.jpg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfigure%2520class%253D%2522pfp-name%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522bg-color-brown%2520flex%2522%253EJun%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfigure%2520class%253D%2522pfp-pic%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252Fpfp-2.jpg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfigure%2520class%253D%2522pfp-name%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522bg-color-brown%2520flex%2522%253EJane%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfigure%2520class%253D%2522pfp-pic%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252Fpfp-3.jpg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfigure%2520class%253D%2522pfp-name%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522bg-color-brown%2520flex%2522%253EJona%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+                    style="width: 680px; height: 485px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+
+                                              <!-- Default Avatars -->
 
         <div class="default-avatars-ex1 flex">
             <figure class="pfp-pic">
@@ -113,6 +130,50 @@
             <figure class="pfp-name">
                         <div class="bg-color-brown flex">Jane</div>
             </figure>
+            <figure class="pfp-pic">
+                <img src="/images/pfp-3.jpg" alt="avatar">
+            </figure>
+            <figure class="pfp-name">
+                        <div class="bg-color-brown flex">Jona</div>
+            </figure>
+        </div>
+
+
+        <div class="avatars-size-about">
+            <h3>Size</h3>
+            <p>The <span class="highlight-color">Avatar</span> comes in 5 sizes and you can also set a custom <span class="highlight-color">size</span> with property from sm to 2xl.</p>
+        </div>
+
+        <!-- Accordian -->
+
+        <div class="accordian">
+            <button type="button" class="accordian__button">Code</button>
+            <div class="accordian__content">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=81px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522avatars-size-ex2%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cfigure%2520class%253D%2522pfp-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252Fpfp-1.jpg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfigure%2520class%253D%2522pfp-md%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522bg-color-brown%2520flex%2522%253E%253Cspan%253EJU%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfigure%2520class%253D%2522pfp-lg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252Fpfp-5.jpg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfigure%2520class%253D%2522pfp-xl%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522bg-color-brown%2520flex%2522%253E%253Cspan%253EJoe%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfigure%2520class%253D%2522pfp-2xl%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252Fpfp-4.jpeg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A"
+                    style="width: 680px; height: 448px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+
+        <div class="avatars-size-ex2 flex">
+            <figure class="pfp-sm">
+                <img src="/images/pfp-1.jpg" alt="avatar">
+            </figure>
+            <figure class="pfp-md">
+                <div class="bg-color-brown flex"><span>JU</span></div>
+            </figure>
+            <figure class="pfp-lg">
+                <img src="/images/pfp-5.jpg" alt="avatar">
+            </figure>
+            <figure class="pfp-xl">
+                <div class="bg-color-brown flex"><span>Joe</span></div>
+            </figure>
+            <figure class="pfp-2xl">
+                <img src="/images/pfp-4.jpeg" alt="avatar">
+            </figure>
+        </div>
         </div>
     </main>
 
@@ -120,5 +181,6 @@
 
 
     <script src="/nav.js"></script>
+    <script src="/accordian.js"></script>
 </body>
 </html>
