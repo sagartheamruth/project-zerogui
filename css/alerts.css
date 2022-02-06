@@ -1,6 +1,12 @@
 .alerts-with-description  {
     background: #ffe57c;
     padding: 1.2rem;
+    
+}
+
+.alerts-with-description h3 {
+    color: #92400e;
+    
 }
 
 .main-section-alerts{
