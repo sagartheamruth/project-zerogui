@@ -22,6 +22,10 @@ p,
 figure,
 picture {
     margin: 0;
+    
+}
+
+body {
     background: #121826;
 }
 

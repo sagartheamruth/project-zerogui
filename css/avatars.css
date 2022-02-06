@@ -3,6 +3,20 @@
     font-family: 'lato', sans-serif;
 }
 
+.highlight-text {
+    background-color: #16272e;
+    border-radius: 5px;
+    padding: 0.1rem;
+}
+
+.highlight-color {
+    color: #62afcc;
+}
+
+.teal-brand-dark {
+    color: #539d98;
+}
+
 .bg-color-brown {
     background-color: #333333;
 }
@@ -30,13 +44,6 @@
     margin-bottom: 1rem;
 }
 
-.teal-brand-dark {
-    color: #539d98;
-}
-
-.highlight-color {
-    color: #62afcc;
-}
 
 .default-avatar-about {
     margin-right: 14rem;
@@ -119,6 +126,10 @@
 
 .avatars-bordered-ex3 {
     margin-right: 16rem;
+}
+
+.avatars-bordered-about {
+    margin-right: 1rem;
 }
 
 .pfp-bordered-danger {
