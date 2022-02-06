@@ -27,6 +27,7 @@
     align-items: center;
     justify-content: center;
     --gap: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .teal-brand-dark {
@@ -83,6 +84,15 @@
     object-fit: content;
 }
 
+.pfp-lg div {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: content;
+    align-items: center;
+    justify-content: center;
+}
+
 .pfp-xl div {
     font-size: 1.25rem;
     width: 4.5rem;
@@ -105,8 +115,41 @@
 }
 
 
+/* different borders */
 
+.avatars-bordered-ex3 {
+    margin-right: 16rem;
+}
 
+.pfp-bordered-danger {
+    border: solid;
+    border-color: #f21361;
+    border-radius: 50%;
+}
+
+.pfp-bordered-online {
+    border: solid;
+    border-color: #17c964;
+    border-radius: 50%;
+}
+
+.pfp-bordered-blue {
+    border: solid;
+    border-color: #0070f3;
+    border-radius: 50%;
+}
+
+.pfp-bordered-yellow {
+    border: solid;
+    border-color: #f5a623;
+    border-radius: 50%;
+}
+
+.pfp-bordered-offline {
+    border: solid;
+    border-color: #333333;
+    border-radius: 50%;
+}
 
 
 
