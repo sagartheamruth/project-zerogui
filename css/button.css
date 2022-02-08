@@ -1,0 +1,94 @@
+/* default button */
+
+.front {
+    display: block;
+    position: relative;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: 
+        transform
+        600ms
+        cubic-bezier(.3, .7, .4, 1);
+}
+
+.pushable {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    
+    border-radius: 12px;
+}
+
+.pushable:active .front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+
+.pushable:hover .front {
+    transform: translateY(-6px);
+    transition: transform 250ms cubic-bezier(.3, .7, .4, 1.5);;
+
+}
+
+.pushable:focus:not(:focus-visible) {
+    outline: none;
+}
+
+  .pushable:active .front {
+    transform: translateY(1px);
+    transition: transform 34ms;
+}
+
+.pushable:hover {
+    filter: brightness(110%);
+}
+
+/* danger */
+
+.danger-button-front {
+    background: hsl(345deg, 100%, 47%);
+}
+
+.danger-button-pushable {
+    background: hsl(340deg 100% 32%);
+}
+
+/* success */
+
+.success-button-front {
+    background: hsl(152deg 68% 34%);
+}
+
+.success-button-pushable {
+    background: hsl(152deg 68% 21%);
+}
+
+/* warning */
+
+.warning-button-front {
+    background: hsl(45deg 100% 53%);
+}
+
+.warning-button-pushable {
+    background: hsl(45deg 100% 34%);
+}
+
+/* primary */
+
+.primary-button-front {
+    background: hsl(216deg 98% 54%);
+}
+
+.primary-button-pushable {
+    background: hsl(216deg 99% 35%);
+}
