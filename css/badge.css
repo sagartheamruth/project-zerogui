@@ -1,0 +1,116 @@
+.basic-badges {
+    font-family: 'Lato', sans-serif;
+}
+
+
+.highlight-text-grey {
+    background-color: #f3f4f6;
+    border-radius: 5px;
+    padding: 0.2rem;
+}
+
+.highlight-color-grey {
+    color: #1f2937;
+}
+
+.highlight-text-danger {
+    background-color: #fee2e2;
+    border-radius: 5px;
+    padding: 0.2rem;
+}
+
+.highlight-color-danger {
+    color: #a22d2d;
+}
+
+.highlight-text-warning {
+    background-color: #fef3c7;
+    border-radius: 5px;
+    padding: 0.2rem;
+}
+
+.highlight-color-warning {
+    color: #92400e;
+}
+
+.highlight-text-success {
+    background-color: #d1fae5;
+    border-radius: 5px;
+    padding: 0.2rem;
+}
+
+.highlight-color-success, h1 {
+    color: #2a7a62;
+}
+
+/* notif badges */
+.badge-notif-danger {
+    background-color: #fee2e2;
+    border-radius: 50%;
+    padding: 0.5rem;
+    font-size: 0.6rem;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: -10px;
+    right: -10px;
+}
+
+
+
+.notif-badges {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+/* avatars-with-badges-about */
+
+.avatars-with-badges-about p{
+    font-family: 'Lato', sans-serif;
+    word-spacing: 4px;
+}
+
+.badge-online {
+    background-color: #2a7a62;
+    border-radius: 50%;
+    position: absolute;
+    padding: 0.3rem;
+    right: 5px;
+    top: 40px;
+}
+
+.badge-dnd {
+    background-color: #ff2e2e;
+    border-radius: 50%;
+    position: absolute;
+    padding: 0.3rem;
+    right: 5px;
+    top: 40px;
+}
+
+.badge-offline {
+    background-color: #a0a0a0;
+    border-radius: 50%;
+    position: absolute;
+    padding: 0.3rem;
+    right: 5px;
+    top: 40px;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.m-x-27 {
+    margin-right: 27rem;
+}
+
+.m-x-31 {
+    margin-right: 31rem;
+}
+
+.m-x-22 {
+    margin-right: 22rem;
+}
