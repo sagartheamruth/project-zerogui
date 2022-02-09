@@ -1,0 +1,13 @@
+.card-header h2 {
+    color: white;
+    font-family: 'DM Mono', monospace;
+}
+
+.card-header p {
+    color: white;
+    font-family: 'DM Mono', monospace;
+}
+
+.card-list {
+    display: flex;
+}
