@@ -4,23 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UI Components</title>
+    <title>Cards</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
-            rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+                rel="stylesheet">
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-            
-         <link rel="stylesheet" href="/css/docs.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;700&family=DM+Mono:wght@300&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;700&family=DM+Mono:wght@300&family=Lato:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+                        
+    <link rel="stylesheet" href="/css/docs.css">
+    <link rel="stylesheet" href="/css/avatars.css">
+    <link rel="stylesheet" href="/css/alerts.css">
+    <link rel="stylesheet" href="/css/badge.css">
+    <link rel="stylesheet" href="/css/button.css">
+    <link rel="stylesheet" href="/css/cards.css">
+    <link rel="stylesheet" href="/css/images.css">
         
 </head>
 <body>
     <header class="primary-header flex">
         <div class="flex">
-            <a href="/index.html"><img src="./images/zerogui1.png" alt="logo" class="logo"></a>
+            <a href="/index.html"><img src="/images/zerogui1.png" alt="logo" class="logo"></a>
         </div>
         
         <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><span class="sr-only">MENU</span></button>
@@ -35,7 +47,7 @@
                     </a>
                 </li>
                 <li class="active">
-                    <a href="/components/all-ui-components/avatars.html">
+                    <a href="avatars">
                         <span aria-hidden="true">02</span>AVATAR
                     </a>
                 </li>
@@ -88,37 +100,21 @@
         </nav>
     </header>    
     
-    <!-- <div class="bg-img">
-        <img src="/images/spacemuesuem.png" alt="">
-    </div> -->
-
-<main class="flex main-section">
-
-
-        <div class="main-section-content">
-            <h1>Getting started with <span class="text-brand-teal-dark">ZeroG UI</span></h1>
-            <P>Quickly add ZeroG Component Library to your project by following the instructions below.</P>
-        </div>
-        
-        <div class="code-snippet-inro">
-            <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=74px&dsblur=68px&wc=true&wa=true&pv=85px&ph=16px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520href%253D%2522https%253A%252F%252Fzerogui.netlify.app%252Fcomponents%252Fcomponents.css%2522%2520rel%253D%2522stylesheet%2522%2520%252F%253E%250A%250A"
-            style="width: 778px; height: 299px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-            </iframe>
-
-        </div>
-
-        <div class="main-section-footer-content">
-        <h2>CSS 🎨</h2>
-        <P>Copy-paste the stylesheet link into your head before all other stylesheets to load our CSS.</P>
-        </div>
+    <main class="main-section-alerts flex">
     
-        
+    <div class="main-section-alerts-content">
+        <div>
+            <h1 class="teal-brand-dark">Responsive Images🎴</h1>
+        </div>
 
-</main>
+        
+        
+    </main>
+
+
 
 
     <script src="/nav.js"></script>
+    <script src="/accordian.js"></script>
 </body>
 </html>
