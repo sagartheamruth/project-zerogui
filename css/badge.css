@@ -54,6 +54,7 @@
     align-items: center;
     top: -10px;
     right: -10px;
+    box-shadow: 0 2px 5px 0 rgba(48, 48, 48, 0.911);
 }
 
 .icon-badges {
