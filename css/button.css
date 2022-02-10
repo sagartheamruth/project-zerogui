@@ -92,3 +92,141 @@
 .primary-button-pushable {
     background: hsl(216deg 99% 35%);
 }
+
+
+.plain-btn {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+   
+    margin-bottom: 1rem;
+}
+
+/* plain danger button */
+
+.btn-danger {
+    --color: hsl(345deg, 100%, 47%);
+    font-family: 'Open Sans', sans-serif;
+    background: var(--color);
+    color: whitesmoke;
+    border: none;
+    font-size: 1rem;
+    padding: .5em .75em;
+    cursor: pointer;
+    border-radius: .25em;
+}
+
+.btn-danger:hover, .btn-danger:focus {
+    background: hsl(345deg, 100%, 57%);
+}
+
+.btn-danger.btn-outline-danger {
+    background: none;
+    border: 1px solid var(--color);
+    color: var(--color);
+}
+
+.btn-danger.btn-outline-danger:hover, .btn-danger.btn-outline-danger:focus {
+    background: hsl(345deg, 100%, 87%);
+}
+
+.btn-danger + .btn-danger {
+    margin-left: .25rem;
+}
+
+/* plain success button */
+
+.btn-success {
+    --color: hsl(152deg 68% 34%);
+    font-family: 'Open Sans', sans-serif;
+    background: var(--color);
+    color: whitesmoke;
+    border: none;
+    font-size: 1rem;
+    padding: .5em .75em;
+    cursor: pointer;
+    border-radius: .25em;
+}
+
+.btn-success:hover, .btn-success:focus {
+    background: hsl(152deg 68% 44%);
+}
+
+.btn-success.btn-outline-success {
+    background: none;
+    border: 1px solid var(--color);
+    color: var(--color);
+}
+
+.btn-success.btn-outline-success:hover, .btn-success.btn-outline-success:focus {
+    background: hsl(152deg 68% 64%);
+}
+
+.btn-success + .btn-success {
+    margin-left: .25rem;
+}
+
+/* warning plain button */
+
+.btn-warning {
+    --color: hsl(45deg 100% 53%);
+    font-family: 'Open Sans', sans-serif;
+    background: var(--color);
+    color: whitesmoke;
+    border: none;
+    font-size: 1rem;
+    padding: .5em .75em;
+    cursor: pointer;
+    border-radius: .25em;
+}
+
+.btn-warning:hover, .btn-warning:focus {
+    background: hsl(45deg 100% 63%);
+}
+
+.btn-warning.btn-outline-warning {
+    background: none;
+    border: 1px solid var(--color);
+    color: var(--color);
+}
+
+.btn-warning.btn-outline-warning:hover, .btn-warning.btn-outline-warning:focus {
+    background: hsl(45deg 100% 83%);
+}
+
+.btn-warning + .btn-warning {
+    margin-left: .25rem;
+}
+
+/* primary button */
+
+.btn-primary {
+    --color: hsl(216deg 98% 54%);
+    font-family: 'Open Sans', sans-serif;
+    background: var(--color);
+    color: whitesmoke;
+    border: none;
+    font-size: 1rem;
+    padding: .5em .75em;
+    cursor: pointer;
+    border-radius: .25em;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background: hsl(216deg 98% 64%);
+}
+
+.btn-primary.btn-outline-primary {
+    background: none;
+    border: 1px solid var(--color);
+    color: var(--color);
+}
+
+.btn-primary.btn-outline-primary:hover, .btn-primary.btn-outline-primary:focus {
+    background: hsl(216deg 98% 84%);
+}
+
+.btn-primary + .btn-primary {
+    margin-left: .25rem;
+}
+

@@ -56,7 +56,56 @@
     right: -10px;
 }
 
+.icon-badges {
+    margin-right: 30rem;
+}
 
+.badge-icon-message {
+    background: black;
+    border-radius: 50%;
+    font-size: 0.6rem;
+    padding: 0.5em 0.7em;
+    color: whitesmoke;
+    z-index: 999999;
+    position: relative;
+    top: -3.5rem;
+    left: 0.5rem;
+    border: 1px solid #ff6e6e;
+    box-shadow: 0 2px 5px 0 rgba(48, 48, 48, 0.911);
+}
+
+.badge-icon-cart {
+    background: white;
+    border-radius: 50%;
+    font-size: 0.5rem;
+    padding: 0.5em 0.7em;
+    color: black;
+    z-index: 999999;
+    position: relative;
+    top: -2.5rem;
+    left: 1.5rem;
+
+    border: 1px solid #2e4369;
+    box-shadow: 0 2px 5px 0 rgba(48, 48, 48, 0.911);
+}
+
+.badge-icon-man {
+    background: white;
+    border-radius: 50%;
+    font-size: 0.5rem;
+    padding: 0.5em 0.7em;
+    color: black;
+    z-index: 999999;
+    position: relative;
+    top: -1.2rem; 
+    left: 1.4rem;
+    border: 1px solid #2e4369;
+    box-shadow: 0 2px 5px 0 rgba(48, 48, 48, 0.911);
+}
+
+.accordian-badge {
+    margin-top: -1rem;
+}
 
 .notif-badges {
     font-family: 'Lato', sans-serif;
@@ -117,4 +166,12 @@
 
 .m-x-8 {
     margin-right: 8rem;
+}
+
+.m-x-32 {
+    margin-right: 32rem;
+}
+
+.m-x-35 {
+    margin-right: 35rem;
 }
